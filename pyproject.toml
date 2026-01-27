@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dem2mujoco"
+version = "0.1.0"
+description = "Download DEMs, visualize them, and convert to MuJoCo heightfields for your RL workflow."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "rasterio",
+    "scipy",
+    "imageio",
+    "matplotlib",
+    "plotly",
+    "opensimplex",
+    "mujoco",
+    "glfw",
+    "PyOpenGL",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptool.packages.find]
+where = ["src"]
