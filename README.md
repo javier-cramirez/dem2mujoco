@@ -1,5 +1,7 @@
 **W.I.P**
 
+THis is a small tool for my robotics simulation projects. Anything outside of that, I do not know how it'd fare.
+
 ### Instructions
 
 You can fetch DEMs from [OpenTopography](https://opentopography.org/), given you have a license. If you are a student at higher institution,
