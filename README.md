@@ -4,8 +4,13 @@ THis is a small tool for my robotics simulation projects. Anything outside of th
 
 ### Instructions
 
-You can fetch DEMs from [OpenTopography](https://opentopography.org/), given you have a license. If you are a student at higher institution,
+You can fetch tiff files from [OpenTopography](https://opentopography.org/), given you have a license. If you are a student at higher institution,
 it should be the case that you are able to be granted one. 
+
+Once downloaded, we will convert them to DEMs which we will use for the next step.
+
+<img width="500" height="133" alt="image" src="https://github.com/user-attachments/assets/117b40c8-4521-49a6-ada1-4cecfa553b24" />
+(image credit to [MacOdrum Library](https://library.carleton.ca/guides/help/dem-formats))
 
 ### Some Background Behind the Abstraction
 
