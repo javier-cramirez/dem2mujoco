@@ -1,9 +1,11 @@
 **W.I.P**
 
+### Instructions
+
 You can fetch DEMs from [OpenTopography](https://opentopography.org/), given you have a license. If you are a student at higher institution,
 it should be the case that you are able to be granted one. 
 
-## How it Works
+### Some Background Behind the Abstraction
 
 ### Multi-Dimensional Terrain Smoothing
 
@@ -12,7 +14,7 @@ For our purposes (robot environments), we want a smooth terrain that the robot c
 
 As such, we can use filters (like the Gaussian filter) applied to the heightfield generated from our DEM data to "smooth" the terrain. 
 
-### Extra Background
+### Extra Stuff
 From signal processing land, we know that low-pass filters only pass along frequencies below a certain cutoff, $D_0$. 
 
 In 2D images, low-pass filtering can produce a "smoothened" effect. Unwanted space between distorted pixels can be bridged together by such filters. 
