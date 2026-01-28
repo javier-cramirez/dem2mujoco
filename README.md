@@ -12,8 +12,11 @@ For our purposes (robot environments), we want a smooth terrain that the robot c
 
 As such, we can use filters (like the Gaussian filter) applied to the heightfield generated from our DEM data to "smooth" the terrain. 
 
+### Extra Background
+From signal processing land, we know that low-pass filters only pass along frequencies below a certain cutoff, $D_0$. 
+
 In 2D images, low-pass filtering can produce a "smoothened" effect. Unwanted space between distorted pixels can be bridged together by such filters. 
-Using a Gaussian filter, the cutoff frequency is the variance $\sigma^2$. Therefore, $\sigma^2$ controls the amount of "smoothing". 
+Using a Gaussian filter, the cutoff frequency, $D_0$, is the variance $\sigma^2$. Therefore, $\sigma^2$ controls the amount of "smoothing" in our image. 
 
 (image credit to the [scipy.ndimage docs](https://docs.scipy.org/doc/scipy/tutorial/ndimage.html))<img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/bbee3e08-ea86-4acc-b726-c56d73f51b98"/>
 
