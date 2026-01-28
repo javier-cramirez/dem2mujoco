@@ -21,6 +21,9 @@ dependencies = [
     "PyOpenGL",
 ]
 
+[project.scripts]
+dem2mujoco-plot = "dem2mujoco.cli:main"
+
 [tool.setuptools]
 package-dir = {"" = "src"}
 
