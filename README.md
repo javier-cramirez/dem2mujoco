@@ -11,6 +11,8 @@ Once downloaded, we will convert them to DEMs which we will use for the next ste
 
 <img width="500" height="133" alt="image" src="https://github.com/user-attachments/assets/117b40c8-4521-49a6-ada1-4cecfa553b24" />
 
+To download MuJoCo, do the following:
+
 (image credit to [MacOdrum Library](https://library.carleton.ca/guides/help/dem-formats))
 
 ### Some Background Behind the Abstraction
