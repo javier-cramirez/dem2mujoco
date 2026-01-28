@@ -7,8 +7,6 @@ it should be the case that you are able to be granted one.
 
 ### Some Background Behind the Abstraction
 
-### Multi-Dimensional Terrain Smoothing
-
 DEMs *can be* noisy. Whether they were generated from LiDaR point clouds, via photogrammetery, or radar, they may contain artifacts or other noise.
 For our purposes (robot environments), we want a smooth terrain that the robot can navigate (smooth as in not weird or noisy where it shouldn't be). 
 
