@@ -10,6 +10,7 @@ it should be the case that you are able to be granted one.
 Once downloaded, we will convert them to DEMs which we will use for the next step.
 
 <img width="500" height="133" alt="image" src="https://github.com/user-attachments/assets/117b40c8-4521-49a6-ada1-4cecfa553b24" />
+
 (image credit to [MacOdrum Library](https://library.carleton.ca/guides/help/dem-formats))
 
 ### Some Background Behind the Abstraction
@@ -26,5 +27,6 @@ In 2D images, low-pass filtering can produce a "smoothened" effect. Unwanted spa
 Using a Gaussian filter, the cutoff frequency, $D_0$, is the variance $\sigma^2$. Therefore, $\sigma^2$ controls the amount of "smoothing" in our image. 
 
 <img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/bbee3e08-ea86-4acc-b726-c56d73f51b98"/>
+
 (image credit to the [scipy.ndimage docs](https://docs.scipy.org/doc/scipy/tutorial/ndimage.html))
 
