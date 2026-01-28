@@ -28,16 +28,18 @@ def write_terrain_xml(
     y_half: float,
     z_scale: float,
     base: float = 0.1,
-    friction: tuple[float] = (1.0, 0.005, 0.0001)
+    friction: tuple[float, float, float] = (1.0, 0.005, 0.0001)
 ):
-    xml = MJFC_TEMPLATE.format(
+
+    xml = MJCF_TEMPLATE.format(
         hfield_png = heightfield_png,
         x_half = x_half,
         y_half = y_half,
         z_scale = z_scale,
         base = base,
-        friction = "".join(map(str, friction))
+        friction = " ".join(f"{x:.6g}" for x in friction)
     )
-
-    out_xml_path.write_text(Path(out_xml_path))
+    
+    out_xml_path = Path(out_xml_path)
+    out_xml_path.write_text(xml)
     return out_xml_path

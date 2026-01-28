@@ -16,13 +16,14 @@ dependencies = [
     "matplotlib",
     "plotly",
     "opensimplex",
-    "mujoco",
-    "glfw",
-    "PyOpenGL",
+    #"mujoco",
+    #"glfw",
+    #"PyOpenGL",
 ]
 
 [project.scripts]
-dem2mujoco-plot = "dem2mujoco.cli:main"
+#dem2mujoco-plot = "dem2mujoco.cli:main"
+dem2mujoco-preview = "dem2mujoco.cli:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
